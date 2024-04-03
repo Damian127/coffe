@@ -149,4 +149,3 @@ while is_running:
             payment = process_coins()
             is_transaction_successful(payment, drink["cost"])
             make_coffee(drink["ingredients"], order)
-#
